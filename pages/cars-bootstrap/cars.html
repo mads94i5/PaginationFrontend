@@ -1,0 +1,21 @@
+<template>
+  <div class="table-responsive">
+    <label class="form-label">Show per page:
+    <input class="form-control" type="number" id="show-size" value="10">
+  </label>
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-3"><a id="header-id" href="#/cars-v2">#</a></th>
+          <th class="col-3"><a id="header-brand" href="#/cars-v2">Brand</a></th>
+          <th class="col-3"><a id="header-model" href="#/cars-v2">Model</a></th>
+          <th class="col-3"><a id="header-color" href="#/cars-v2">Color</a></th>
+          <th class="col-3"><a id="header-kilometers" href="#/cars-v2">Kilometers</a></th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+  </div>
+  <ul id="car-paginator" class="pagination justify-content-center" style="margin-top:10px;"></ul>
+</template>
